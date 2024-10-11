@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50; /* Green background for the card */
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card.flipped {
+  background-color: #fff; /* White background when flipped */
+  color: black;
+  transform: scale(1.1);
+}
+
+.card.matched {
+  background-color: #2196F3; /* Blue for matched cards */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  color: green;
+}
