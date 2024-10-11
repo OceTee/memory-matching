@@ -2,7 +2,7 @@
   "name": "memory-matching",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OceTee.github.io/memory-matching",
+  "homepage": "https://ocetee.github.io/memory-matching/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
